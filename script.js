@@ -44,7 +44,7 @@ const players = [
     { id: 42, name: "Krishna Moothi", image: "images/Krishna_Moothi.jpg" },
     { id: 43, name: "Mohan", image: "images/Mohan.jpg" },
     { id: 44, name: "Sharvesh SR", image: "images/Sharvesh_SR.jpg" },
-    { id: 45, name: "Shivakumar", image: "images/Siva_Sir.jpg" }
+    { id: 45, name: "Shivakumar", image: "images/Siva_sir.jpg" }
 ];
 
 const Teams = document.getElementById("Teams");
