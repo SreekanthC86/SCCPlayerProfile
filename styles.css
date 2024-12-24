@@ -46,7 +46,7 @@ main {
 /* Search bar styling */
 #search-bar {
 	width: 50%; /* Centered and 50% width */
-	top:250px;
+	top:350px;
     padding: 10px;
     font-size: 16px;
     border: 2px solid #ccc;
@@ -54,6 +54,50 @@ main {
     box-sizing: border-box;
     margin: 20px auto;
     display: block; /* Ensures it's treated as a block element for centering */
+}
+
+#Auction-Rules {
+	width: 25%; /* Centered and 50% width */
+	top:350px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    display: block; /* Ensures it's treated as a block element for centering */
+}
+
+#AuctionRules {	
+    position: relative;
+	padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 20px auto;
+    display: flex;
+    width: auto;
+    text-align: center;
+	align: left;
+}
+
+#Teams {	
+    position: relative;
+	padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 20px auto;
+	margin-left:40px auto;
+    display: flex;
+    width: auto;
+    text-align: center;
+	justify: flex-end;
 }
 
 /* Search results */

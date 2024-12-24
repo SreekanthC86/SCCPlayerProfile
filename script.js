@@ -12,7 +12,7 @@ const players = [
     { id: 10, name: "Kamal", image: "images/Kamal.jpg" },
     { id: 11, name: "Krishna Suresh", image: "images/Krishna_Suresh.jpg" },
     { id: 12, name: "Ram G", image: "images/Ram_G.jpg" },
-    { id: 13, name: "Shiva", image: "images/Shiva.jpg" },
+    { id: 13, name: "Shiva", image: "images/Siva.jpg" },
     { id: 14, name: "Venkat", image: "images/Venkat.jpg" },
     { id: 15, name: "Norton", image: "images/Norton.jpg" },
     { id: 16, name: "Sabari", image: "images/Sabari.jpg" },
@@ -27,7 +27,7 @@ const players = [
     { id: 25, name: "Palani", image: "images/Palani.jpg" },
     { id: 26, name: "Sanjay CM", image: "images/Sanjay_CM.jpg" },
     { id: 27, name: "Vijay", image: "images/Vijay.jpg" },
-    { id: 28, name: "Vinoth S K", image: "images/Vinoth_S_K.jpg" },
+    { id: 28, name: "Vinoth S K", image: "images/Vinoth_SK.jpg" },
     { id: 29, name: "Dinesh", image: "images/Dinesh.jpg" },
     { id: 30, name: "Gopal", image: "images/Gopal.jpg" },
     { id: 31, name: "Navaneethan", image: "images/Navaneethan.jpg" },
@@ -44,9 +44,11 @@ const players = [
     { id: 42, name: "Krishna Moothi", image: "images/Krishna_Moothi.jpg" },
     { id: 43, name: "Mohan", image: "images/Mohan.jpg" },
     { id: 44, name: "Sharvesh SR", image: "images/Sharvesh_SR.jpg" },
-    { id: 45, name: "Shivakumar", image: "images/Shivakumar.jpg" }
+    { id: 45, name: "Shivakumar", image: "images/Siva_Sir.jpg" }
 ];
 
+const Teams = document.getElementById("Teams");
+const AuctionRules = document.getElementById("AuctionRules");
 const searchPage = document.getElementById("search-page");
 const searchBar = document.getElementById("search-bar");
 const searchResults = document.getElementById("search-results");
@@ -81,15 +83,35 @@ searchResults.addEventListener("click", (event) => {
         const selectedPlayer = players.find(player => player.id === parseInt(playerId));
         //<h2>${selectedPlayer.name}</h2>
         if (selectedPlayer) {
-            playerProfile.innerHTML = `
-                <img src="${selectedPlayer.image}" alt="${selectedPlayer.name}">
-            `;
+            playerProfile.innerHTML = `<img src="${selectedPlayer.image}" alt="${selectedPlayer.name}">`;
             searchPage.style.display = "none";
             header.style.display = "none";
-            playerProfile.style.display = "block";            
+            playerProfile.style.display = "block";
+            AuctionRules.style.display = "none";
+            Teams.style.display = "none";   
             backButton.style.display = "inline-block"; // Show Back button
         }
     }
+});
+
+AuctionRules.addEventListener("click",(event) =>{
+    playerProfile.innerHTML = `<img src= "images/Auction_Rules.jpg">`;
+            searchPage.style.display = "none";
+            header.style.display = "none";
+            playerProfile.style.display = "block";            
+            backButton.style.display = "inline-block";
+            AuctionRules.style.display = "none";
+            Teams.style.display = "none";
+});
+
+Teams.addEventListener("click",(event) =>{
+    playerProfile.innerHTML = `<img src= "images/Teams_Captains.jpg">`;
+            searchPage.style.display = "none";
+            header.style.display = "none";
+            playerProfile.style.display = "block";            
+            backButton.style.display = "inline-block";
+            AuctionRules.style.display = "none";
+            Teams.style.display = "none";
 });
 
 // Back to Search button functionality
@@ -100,4 +122,6 @@ backButton.addEventListener("click", () => {
     searchBar.value = "";
     searchResults.innerHTML = ""; // Clear search results
     backButton.style.display = "none";
+    AuctionRules.style.display = "flex";
+    Teams.style.display = "flex";
 });
