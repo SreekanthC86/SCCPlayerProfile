@@ -12,7 +12,7 @@ const players = [
     { id: 10, name: "Kamal", image: "images/Kamal.jpg" },
     { id: 11, name: "Krishna Suresh", image: "images/Krishna_Suresh.jpg" },
     { id: 12, name: "Ram G", image: "images/Ram_G.jpg" },
-    { id: 13, name: "Shiva", image: "images/Siva.jpg" },
+    { id: 13, name: "Siva", image: "images/Siva.jpg" },
     { id: 14, name: "Venkat", image: "images/Venkat.jpg" },
     { id: 15, name: "Norton", image: "images/Norton.jpg" },
     { id: 16, name: "Sabari", image: "images/Sabari.jpg" },
@@ -20,13 +20,13 @@ const players = [
     { id: 18, name: "Surya", image: "images/Surya.jpg" },
     { id: 19, name: "Thiru", image: "images/Thiru.jpg" },
     { id: 20, name: "Vijay Anand", image: "images/Vijay_Anand.jpg" },
-    { id: 21, name: "Yadhav", image: "images/Yadhav.jpg" },
+    { id: 21, name: "Yadav", image: "images/Yadav.jpg" },
     { id: 22, name: "Akash", image: "images/Akash.jpg" },
     { id: 23, name: "Murali", image: "images/Murali.jpg" },
     { id: 24, name: "Nappu", image: "images/Nappu.jpg" },
-    { id: 25, name: "Palani", image: "images/Palani.jpg" },
+    { id: 25, name: "Palanivel", image: "images/Palanivel.jpg" },
     { id: 26, name: "Sanjay CM", image: "images/Sanjay_CM.jpg" },
-    { id: 27, name: "Vijay", image: "images/Vijay.jpg" },
+    { id: 27, name: "Vijay Balaji", image: "images/Vijay.jpg" },
     { id: 28, name: "Vinoth S K", image: "images/Vinoth_SK.jpg" },
     { id: 29, name: "Dinesh", image: "images/Dinesh.jpg" },
     { id: 30, name: "Gopal", image: "images/Gopal.jpg" },
@@ -41,10 +41,10 @@ const players = [
     { id: 39, name: "Baskar", image: "images/Baskar.jpg" },
     { id: 40, name: "Fermi", image: "images/Fermi.jpg" },
     { id: 41, name: "Hari C", image: "images/Hari_C.jpg" },
-    { id: 42, name: "Krishna Moothi", image: "images/Krishna_Moothi.jpg" },
+    { id: 42, name: "KrishnaMoothy", image: "images/Krishna.jpg" },
     { id: 43, name: "Mohan", image: "images/Mohan.jpg" },
     { id: 44, name: "Sharvesh SR", image: "images/Sharvesh_SR.jpg" },
-    { id: 45, name: "Shivakumar", image: "images/Siva_sir.jpg" }
+    { id: 45, name: "Sivakumar", image: "images/Siva_Sir.jpg" }
 ];
 
 const Teams = document.getElementById("Teams");

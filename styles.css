@@ -80,6 +80,7 @@ main {
     display: flex;
     width: auto;
     text-align: center;
+	align: left;
 }
 
 #Teams {	
