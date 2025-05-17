@@ -1,50 +1,49 @@
 // Player data with relative image paths
 const players = [
-    { id: 1, name: "Aravind", image: "images/Aravind.jpg" },
-    { id: 2, name: "Arun", image: "images/Arun.jpg" },
-    { id: 3, name: "Gopinathan", image: "images/Gopinathan.jpg" },
-    { id: 4, name: "Pragadeesh", image: "images/Pragadeesh.jpg" },
-    { id: 5, name: "Pravith", image: "images/Pravith.jpg" },
-    { id: 6, name: "Ram Sunder", image: "images/Ram_Sunder.jpg" },
-    { id: 7, name: "Sreekanth", image: "images/Sreekanth.jpg" },
-    { id: 8, name: "Bala", image: "images/Bala.jpg" },
-    { id: 9, name: "Hariharasudhan", image: "images/Hariharasudhan.jpg" },
-    { id: 10, name: "Kamal", image: "images/Kamal.jpg" },
-    { id: 11, name: "Krishna Suresh", image: "images/Krishna_Suresh.jpg" },
-    { id: 12, name: "Ram G", image: "images/Ram_G.jpg" },
-    { id: 13, name: "Siva", image: "images/Siva.jpg" },
-    { id: 14, name: "Venkat", image: "images/Venkat.jpg" },
-    { id: 15, name: "Norton", image: "images/Norton.jpg" },
-    { id: 16, name: "Sabari", image: "images/Sabari.jpg" },
-    { id: 17, name: "Sudar", image: "images/Sudar.jpg" },
-    { id: 18, name: "Surya", image: "images/Surya.jpg" },
-    { id: 19, name: "Thiru", image: "images/Thiru.jpg" },
-    { id: 20, name: "Vijay Anand", image: "images/Vijay_Anand.jpg" },
-    { id: 21, name: "Yadav", image: "images/Yadav.jpg" },
-    { id: 22, name: "Akash", image: "images/Akash.jpg" },
-    { id: 23, name: "Murali", image: "images/Murali.jpg" },
-    { id: 24, name: "Nappu", image: "images/Nappu.jpg" },
-    { id: 25, name: "Palanivel", image: "images/Palanivel.jpg" },
-    { id: 26, name: "Sanjay CM", image: "images/Sanjay_CM.jpg" },
-    { id: 27, name: "Vijay Balaji", image: "images/Vijay.jpg" },
-    { id: 28, name: "Vinoth S K", image: "images/Vinoth_SK.jpg" },
-    { id: 29, name: "Dinesh", image: "images/Dinesh.jpg" },
-    { id: 30, name: "Gopal", image: "images/Gopal.jpg" },
-    { id: 31, name: "Navaneethan", image: "images/Navaneethan.jpg" },
-    { id: 32, name: "Rahul", image: "images/Rahul.jpg" },
-    { id: 33, name: "Rakesh", image: "images/Rakesh.jpg" },
-    { id: 34, name: "Senthil C", image: "images/Senthil_C.jpg" },
-    { id: 35, name: "Senthil D", image: "images/Senthil_D.jpg" },
-    { id: 36, name: "Vinoth M", image: "images/Vinoth_M.jpg" },
-    { id: 37, name: "Abishek", image: "images/Abishek.jpg" },
-    { id: 38, name: "Bala (Chef)", image: "images/Bala_Chef.jpg" },
-    { id: 39, name: "Baskar", image: "images/Baskar.jpg" },
-    { id: 40, name: "Fermi", image: "images/Fermi.jpg" },
-    { id: 41, name: "Hari C", image: "images/Hari_C.jpg" },
-    { id: 42, name: "KrishnaMoothy", image: "images/Krishna.jpg" },
-    { id: 43, name: "Mohan", image: "images/Mohan.jpg" },
-    { id: 44, name: "Sharvesh SR", image: "images/Sharvesh_SR.jpg" },
-    { id: 45, name: "Sivakumar", image: "images/Siva_Sir.jpg" }
+    { id: 1, name: "Aravind", image: "images/Aravind.gif" },
+    { id: 2, name: "Rakesh", image: "images/Rakesh.gif" },
+    { id: 3, name: "Praveen", image: "images/Praveen.gif" },
+    { id: 4, name: "Sathish", image: "images/Sathish.gif" },
+    { id: 5, name: "Pravith", image: "images/Pravith.gif" },
+    { id: 6, name: "Ram Sunder", image: "images/Ramsunder.gif" },
+    { id: 7, name: "Sreekanth", image: "images/Sreekanth.gif" },
+    { id: 8, name: "Bala", image: "images/Bala.gif" },
+    { id: 9, name: "Hariharasudhan", image: "images/Hari.gif" },
+    { id: 10, name: "Kamal", image: "images/Kamal.gif" },
+    { id: 11, name: "Krishna Suresh", image: "images/Krishna.gif" },
+    { id: 12, name: "Ram G", image: "images/Ram_G.gif" },
+    { id: 13, name: "Siva", image: "images/Siva.gif" },
+    { id: 14, name: "Venkat", image: "images/Venkat.gif" },
+    { id: 15, name: "Norton", image: "images/Norton.gif" },
+    { id: 16, name: "Sabari", image: "images/Sabari.gif" },
+    { id: 17, name: "Sudar", image: "images/Sudar.gif" },
+    { id: 18, name: "Surya", image: "images/Surya.gif" },
+    { id: 19, name: "Allwin", image: "images/Allwin.gif" },
+    { id: 20, name: "Gokul", image: "images/Gokul.gif" },
+    { id: 21, name: "Yadav", image: "images/Yadav.gif" },
+    { id: 22, name: "Akash", image: "images/Akash.gif" },
+    { id: 23, name: "Murali", image: "images/Murali.gif" },
+    { id: 24, name: "Nappu", image: "images/Nappu.gif" },
+    { id: 25, name: "Palanivel", image: "images/Palanivel.gif" },
+    { id: 26, name: "Sanjay CM", image: "images/Sanjay_CM.gif" },
+    { id: 27, name: "Sanjay", image: "images/Sanjay.gif" },
+    { id: 28, name: "Vinoth S K", image: "images/Vinoth_SK.gif" },
+    { id: 29, name: "Vasanth", image: "images/Vasanth.gif" },
+    { id: 30, name: "Dinesh", image: "images/Dinesh.gif" },
+    { id: 31, name: "Gopal", image: "images/Gopal.gif" },
+    { id: 32, name: "Navaneethan", image: "images/Navaneethan.gif" },
+    { id: 33, name: "Rahul", image: "images/Rahul.gif" },
+    { id: 34, name: "Senthil C", image: "images/Senthil_C.gif" },
+    { id: 35, name: "Senthil D", image: "images/Senthil_D.gif" },
+    { id: 36, name: "Vinoth M", image: "images/Vinoth_M.gif" },
+    { id: 37, name: "Balamurugan", image: "images/Balamurugan.gif" },
+    { id: 38, name: "Baskar", image: "images/Baskar.gif" },
+    { id: 39, name: "Fermi", image: "images/Fermi.gif" },
+    { id: 40, name: "Hari C", image: "images/Hari_C.gif" },
+    { id: 41, name: "Krishnamoorthy", image: "images/Krishnamoorthy.gif" },
+    { id: 42, name: "Sharvesh SR", image: "images/Sarvesh_SR.gif" },
+    { id: 43, name: "Gokulraj", image: "images/Gokulraj.gif" },
+    { id: 44, name: "Natarajan", image: "images/Natarajan.gif" }
 ];
 
 const Teams = document.getElementById("Teams");
@@ -63,7 +62,7 @@ searchBar.addEventListener("input", () => {
 
     if (query) {
         const filteredPlayers = players.filter(player =>
-            player.name.toLowerCase().includes(query)
+            player.name.toLowerCase().startsWith(query)
         );
 
         filteredPlayers.forEach(player => {
@@ -104,13 +103,14 @@ AuctionRules.addEventListener("click",(event) =>{
             Teams.style.display = "none";
 });
 
+
 Teams.addEventListener("click", (event) => {
     // Define the list of images to display for teams and their corresponding popup images
     const teamImages = [
-        { thumbnail: "images/VJB.jpg", popup: "images/Pravin.jpg" },
-        { thumbnail: "images/NMSD11.jpg", popup: "images/Sathish.jpg" },
-        { thumbnail: "images/Warriors.jpg", popup: "images/Gokul.jpg" },
-        { thumbnail: "images/Leo.jpg", popup: "images/Vasanth.jpg" }
+        { thumbnail: "images/GP11.jpg", popup: "images/Arun.gif" },
+        { thumbnail: "images/TeamHulk.png", popup: "images/Gopi.gif" },
+        { thumbnail: "images/A11.jpg", popup: "images/Pragadeesh.gif" },
+        { thumbnail: "images/T11.png", popup: "images/Vijay.gif" }
     ];
 
     // Clear the playerProfile content

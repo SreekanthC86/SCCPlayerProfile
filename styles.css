@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url('images/cricket-field.jpg') no-repeat center center fixed;
+    background: url('images/cricket-ground.png') no-repeat center center fixed;
     background-size: cover;
     color: #fff;
 }
@@ -32,7 +32,7 @@ body {
 #header h1 {
     position: absolute
 	font-size: 28px;
-    color: #fff;
+    color: #FF7700;
     margin: 10px 0; /* Spacing between logo and text */
     text-align: center;
 }
@@ -45,7 +45,8 @@ main {
 
 /* Search bar styling */
 #search-bar {
-	width: 50%; /* Centered and 50% width */
+	width: 52%; /* Centered and 50% width */
+    left: 500px;
 	top:350px;
     padding: 10px;
     font-size: 16px;
@@ -58,8 +59,8 @@ main {
 
 #Auction-Rules {
 	width: 25%; /* Centered and 50% width */
-	top:350px;
-    padding: 10px;
+	top:250px;
+    padding: 0px;
     font-size: 16px;
     border-radius: 5px;
     box-sizing: border-box;
@@ -68,8 +69,9 @@ main {
 }
 
 #AuctionRules {	
-    position: relative;
+    position: absolute;
 	padding: 10px 20px;
+    left: 1400px;
     font-size: 16px;
     cursor: pointer;
     background-color: #000000;
@@ -84,7 +86,7 @@ main {
 }
 
 #Teams {	
-    position: relative;
+    position: absolute;
 	padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -92,6 +94,7 @@ main {
     color: white;
     border: none;
     border-radius: 5px;
+    left: 400px;
     margin: 20px auto;
 	margin-left:40px auto;
     display: flex;
@@ -131,10 +134,20 @@ main {
     text-align: center;
     margin: 20px auto;
     padding: 20px;
-    max-width: 1490px;
-	max-height: 900 px
+    max-width: 1700px;
+	max-height: 1200px;
     background: rgba(0, 0, 0, 0.8);
     border-radius: 10px;
+}
+#slideshow-container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+	max-height: 200 px
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+	position: sticky
 }
 
 #player-profile img {
